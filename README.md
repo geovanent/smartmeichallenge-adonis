@@ -7,6 +7,12 @@ npm install
 adonis serve --dev
 ```
 3. Esse projeto possui um endpoint POST {{host}}/crawler esperando receber um body como parametro { url = 'https://www.smartmei.com.br' }
+```js
+POST {{host}}/crawler 
+    {
+    "url" = 'https://www.smartmei.com.br'
+    }
+```
 4. Retorno esperado:
 ```js
     {
