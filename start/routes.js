@@ -17,7 +17,7 @@
 const Route = use('Route')
 
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON' }
+  return { greeting: 'Backend API WORKING' }
 })
 
 Route.post('/crawler', 'CrawlerController.crawlar')
